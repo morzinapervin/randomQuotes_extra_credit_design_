@@ -1,0 +1,255 @@
+section.quote-page {
+  background-color: #f1f2f4;
+  /* padding: 50px 0 100px 0; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/friendship1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+p {
+  margin: 0;
+}
+
+.quote-box {
+  text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
+  line-height: 0.5;
+  min-height: 150px;
+  padding: 10px 10px;
+}
+
+.quote,
+.dream_quote {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  position: relative;
+  margin: 0;
+  margin-left: 10px;
+}
+
+
+
+.quote:before,
+.quote:after,
+.dream_quote:before,
+.dream_quote:after {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    position: absolute;
+}
+
+.quote:before,
+.dream_quote:before {
+    content: '“';
+    top: -0.4em;
+    left: -0.5em;
+}
+
+.quote:after,
+.dream_quote:after {
+    content: '”';
+    bottom: -0.1em;
+    margin-left: 0.1em;
+    position: absolute;
+}
+
+.source,
+.dream_source {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    text-align: right;
+    margin-right: 4em;
+    margin-top: 1em;
+}
+
+.source:before,
+.dream_source:before {
+    content: '—';
+}
+
+.citation {
+    font-style: italic;
+}
+
+.citation:before {
+    content: ', ';
+    font-style: normal;
+}
+
+.year:before {
+    content: ', ';
+    font-style: normal;
+}
+
+.speaker_img{
+  width: 110px;
+  height: 110px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+.quote-page .quote-header,
+.quote-page .quote-content,
+.quote-page .footer,
+.quote-page .quoteout {
+  margin-top: 32px;
+  background: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quote-page .quote-header h2 {
+  font-size: 25px;
+}
+
+
+
+.quote-content  {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.quote-content  {
+  text-decoration: none;
+  color: #000000;
+}
+
+.quote-content .quote-info p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.quote-content .quote-info a i {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.quote-content .quote-info a i:hover {
+  color: #007bff;
+}
+
+.book-quantity {
+  align-items: center;
+}
+
+.footer  a{
+  color: hsl(118, 78%, 31%); 
+  border: 1px solid hsl(118, 78%, 31%);
+  border-radius: 3px;
+  padding: 10px 15px;
+  box-shadow: 0 3px 6px -4px #a2a2a2;
+  font-weight: 500;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  color: #fff ;
+  background-color: hsl(118, 78%, 31%);
+  transition: 0.2s all ease-in-out;
+}
+
+
+
+.footer {
+  color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 10px 15px;
+  box-shadow: 0 3px 6px -4px #a2a2a2;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.footer .btn:hover {
+  background-color: #ffad33 radial-gradient(circle, transparent 1%, #ff9900 1%) center/15000%;
+}
+
+.quoteout .quoteout-sidebar-header {
+  border-bottom: 1px solid #87298f;
+}
+
+.quoteout .quoteout-sidebar-header h2 {
+  font-size: 20px;
+  color: #87298f;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+.btn{
+  padding: 10px 10px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+  
+  
+}
+
+
+.dream-btn {
+  background-color: #e4a61f!important;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  width: 20%;
+}
+
+
+.life-btn{
+  background-color: #55acee;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  width: 20%;
+  
+  
+}
+
+.friend-btn {
+  background-color: #CB2027;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  width: 20%;
+  
+  
+}
+
+.love-btn {
+  background-color: #95D03A;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  width: 20%;
+  
+  
+}
+
+
+
+
